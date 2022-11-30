@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000D3094FE2169F49C6954772A5148D9 /* BHZXRouterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2A2EE7853EF2BCE0CE79D7B5BB6052 /* BHZXRouterEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036BE95D7E7D2CF98EEA5E68EBBC697C /* BHZXRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A129BE57119679070BEF2D7189FF0E8 /* BHZXRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC14C7165AEFB685130526A3C67B804 /* BHZXRouterTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACAE2E54EE7B00320D9E48BCAC1B7B8 /* BHZXRouterTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F794B24FFA476DE943E32BA1DA6A43 /* Pods-BHZXRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6995D96B0326D82D4622FB175830FD33 /* Pods-BHZXRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C2E8648B7E661AFB6B6E0AD9E485AF1 /* BHZXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 976860D7D85B3D4897F5CF59C4E096EC /* BHZXRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7D2E8BC358E87D78E49777EFFA3B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C43CCD76A15DC76961EA18347252F42 /* Pods-BHZXRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FEB8F0AFE65FFD0AB3AB7160ED8BF9 /* Pods-BHZXRouter_Tests-dummy.m */; };
+		5DD0B92D67AE794490B5B1BFB006FF5B /* BHZXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA7F224134281C10F86005C32E1CFE /* BHZXRouter.m */; };
+		7347C57DFDE8E496A9278EB96BAC0AD2 /* BHZXRouterInterceptorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 012D78BE3381076B3AF3675F1A5AF5BC /* BHZXRouterInterceptorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0208180AE4D0BAF6D9BC44EC8F4247 /* BHZXRouterEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99F7C9D7C28832A87D0EFDA972E01A /* BHZXRouterEvent.m */; };
+		81437DB499C2BC1F18DDF553D040DBE6 /* BHZXRouterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CA096BA63AA90D96E435E7B6550F5168 /* BHZXRouterTool.m */; };
+		965A9EC0BB82526FB0E9AB5E97D2D404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9AA2C88F5A87361ED4D84E3E0C440D97 /* Pods-BHZXRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 023FB99B5753A605390EE782FEC85943 /* Pods-BHZXRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6737463B838A75B70D5FC5E0C258BD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFEBF3D6EE55B6BD778D1290A35ADFAE /* Pods-BHZXRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4852F7ABAC2D2CC82EF3B5D2B72AEE24 /* Pods-BHZXRouter_Example-dummy.m */; };
+		FDEF8B9B534DEFB8A55EA79F9FA7D913 /* BHZXRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E141513CAAD286F2623C64B04CFE04 /* BHZXRouter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409F6E610B9385AF3EEE22C3C1A421E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABDBAE65C336B4A1CFF3CAEDFDE7EC6;
+			remoteInfo = BHZXRouter;
+		};
+		8FCA30F0EC3FA22BAF3024083ECC5D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FA7377971757E2574480E77CBBD3BD;
+			remoteInfo = "Pods-BHZXRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012D78BE3381076B3AF3675F1A5AF5BC /* BHZXRouterInterceptorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHZXRouterInterceptorProtocol.h; path = BHZXRouter/Classes/BHZXRouterInterceptorProtocol.h; sourceTree = "<group>"; };
+		023FB99B5753A605390EE782FEC85943 /* Pods-BHZXRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BHZXRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		0E65ABB4C22C09824854BDF18871FB8D /* Pods-BHZXRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHZXRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1061F9CD6CDED4DCE3C5A7040862845B /* Pods-BHZXRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHZXRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E648C1E0CC4C38C9670DEFD9778D05E /* Pods-BHZXRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHZXRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3EA4AEBF066FC9FC0C2CD90C7323B1 /* Pods-BHZXRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHZXRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F412C1571B95A3EB6E3FAB16CEC940A /* Pods_BHZXRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHZXRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312FFE052011DF6E32DBCE8C2D193DF7 /* Pods-BHZXRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHZXRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35609B8F542E52835D72B46945E6C8F9 /* Pods-BHZXRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHZXRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		381D58ED9701DFD807D5AF3CC0070A7F /* Pods-BHZXRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BHZXRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		3BC823A2245FE2E9BFCFECC387E31B62 /* BHZXRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BHZXRouter-Info.plist"; sourceTree = "<group>"; };
+		3F2A2EE7853EF2BCE0CE79D7B5BB6052 /* BHZXRouterEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHZXRouterEvent.h; path = BHZXRouter/Classes/BHZXRouterEvent.h; sourceTree = "<group>"; };
+		4852F7ABAC2D2CC82EF3B5D2B72AEE24 /* Pods-BHZXRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHZXRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		4CF667665201929978F7F8BF9A4E7761 /* Pods-BHZXRouter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BHZXRouter_Tests"; path = Pods_BHZXRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		535C156591AEAED5FD5858898434C1F2 /* Pods-BHZXRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHZXRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		63F51FFBB6E19ED3FD19E2D527282EEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6995D96B0326D82D4622FB175830FD33 /* Pods-BHZXRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BHZXRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CB1D96087DE10FC174CA9289538AA91 /* Pods-BHZXRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHZXRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		82E64F7362CDE9158AE23760AF55D43F /* BHZXRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BHZXRouter.modulemap; sourceTree = "<group>"; };
+		8926402A864C26A357F8F3F9358C583A /* Pods-BHZXRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHZXRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91FA7F224134281C10F86005C32E1CFE /* BHZXRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHZXRouter.m; path = BHZXRouter/Classes/BHZXRouter.m; sourceTree = "<group>"; };
+		95EA66369DE0FB38BBFB0DF50117AF86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		976860D7D85B3D4897F5CF59C4E096EC /* BHZXRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHZXRouter.h; path = BHZXRouter/Classes/BHZXRouter.h; sourceTree = "<group>"; };
+		9A129BE57119679070BEF2D7189FF0E8 /* BHZXRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHZXRouter-umbrella.h"; sourceTree = "<group>"; };
+		9A37FC00778D5DECEB9CD67F1F411367 /* BHZXRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHZXRouter.release.xcconfig; sourceTree = "<group>"; };
+		9ACAE2E54EE7B00320D9E48BCAC1B7B8 /* BHZXRouterTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHZXRouterTool.h; path = BHZXRouter/Classes/BHZXRouterTool.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE99F7C9D7C28832A87D0EFDA972E01A /* BHZXRouterEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHZXRouterEvent.m; path = BHZXRouter/Classes/BHZXRouterEvent.m; sourceTree = "<group>"; };
+		BF5F00A39B0809A8746A386FBDA48694 /* BHZXRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHZXRouter.debug.xcconfig; sourceTree = "<group>"; };
+		C0E141513CAAD286F2623C64B04CFE04 /* BHZXRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHZXRouter-dummy.m"; sourceTree = "<group>"; };
+		CA096BA63AA90D96E435E7B6550F5168 /* BHZXRouterTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHZXRouterTool.m; path = BHZXRouter/Classes/BHZXRouterTool.m; sourceTree = "<group>"; };
+		CF509E1B6005F14000151E83E53CD207 /* BHZXRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHZXRouter-prefix.pch"; sourceTree = "<group>"; };
+		D0B319B78BFCE7F62E964D384E880D9B /* Pods-BHZXRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BHZXRouter_Example.modulemap"; sourceTree = "<group>"; };
+		D3FEB8F0AFE65FFD0AB3AB7160ED8BF9 /* Pods-BHZXRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHZXRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		D665E9729E6DB0E4460C05449FEF9BC9 /* BHZXRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BHZXRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7983374ECBF388BEF41BCF45B52D8E5 /* Pods-BHZXRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHZXRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		E2BD1FD86E1DAB7D90731E9323A6B30D /* BHZXRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BHZXRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE851AD2BEFFB50EA9B8BA880601623E /* Pods-BHZXRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHZXRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3228624C48784EA2C8E849688D8E78CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6737463B838A75B70D5FC5E0C258BD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804476CF9F99E10841F56C1901D7046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D2E8BC358E87D78E49777EFFA3B9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFDE0901CA14E25F412F33AA82790B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965A9EC0BB82526FB0E9AB5E97D2D404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A9BF9D55DE87CA2F5CB2C895429326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD1FD86E1DAB7D90731E9323A6B30D /* BHZXRouter.framework */,
+				2F412C1571B95A3EB6E3FAB16CEC940A /* Pods_BHZXRouter_Example.framework */,
+				4CF667665201929978F7F8BF9A4E7761 /* Pods-BHZXRouter_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D3DF4380475EAD354DACFDBF60B812 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C950E8319D07DB7861B8AA319DD7D /* Pods-BHZXRouter_Example */,
+				4AB10ED4D4AD6CABFFA633DF43B7265B /* Pods-BHZXRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4AB10ED4D4AD6CABFFA633DF43B7265B /* Pods-BHZXRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				381D58ED9701DFD807D5AF3CC0070A7F /* Pods-BHZXRouter_Tests.modulemap */,
+				EE851AD2BEFFB50EA9B8BA880601623E /* Pods-BHZXRouter_Tests-acknowledgements.markdown */,
+				312FFE052011DF6E32DBCE8C2D193DF7 /* Pods-BHZXRouter_Tests-acknowledgements.plist */,
+				D3FEB8F0AFE65FFD0AB3AB7160ED8BF9 /* Pods-BHZXRouter_Tests-dummy.m */,
+				535C156591AEAED5FD5858898434C1F2 /* Pods-BHZXRouter_Tests-Info.plist */,
+				6995D96B0326D82D4622FB175830FD33 /* Pods-BHZXRouter_Tests-umbrella.h */,
+				8926402A864C26A357F8F3F9358C583A /* Pods-BHZXRouter_Tests.debug.xcconfig */,
+				2C3EA4AEBF066FC9FC0C2CD90C7323B1 /* Pods-BHZXRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-BHZXRouter_Tests";
+			path = "Target Support Files/Pods-BHZXRouter_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BBCEF2FBE6E1F23A696CC2D6CCE42C2 /* BHZXRouter */ = {
+			isa = PBXGroup;
+			children = (
+				976860D7D85B3D4897F5CF59C4E096EC /* BHZXRouter.h */,
+				91FA7F224134281C10F86005C32E1CFE /* BHZXRouter.m */,
+				3F2A2EE7853EF2BCE0CE79D7B5BB6052 /* BHZXRouterEvent.h */,
+				BE99F7C9D7C28832A87D0EFDA972E01A /* BHZXRouterEvent.m */,
+				012D78BE3381076B3AF3675F1A5AF5BC /* BHZXRouterInterceptorProtocol.h */,
+				9ACAE2E54EE7B00320D9E48BCAC1B7B8 /* BHZXRouterTool.h */,
+				CA096BA63AA90D96E435E7B6550F5168 /* BHZXRouterTool.m */,
+				F4DE72D0FEB07DAD36295AC6CAA34A1E /* Pod */,
+				6DCE1B9D557DE555B113C27771E5ACAD /* Support Files */,
+			);
+			name = BHZXRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6DCE1B9D557DE555B113C27771E5ACAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E64F7362CDE9158AE23760AF55D43F /* BHZXRouter.modulemap */,
+				C0E141513CAAD286F2623C64B04CFE04 /* BHZXRouter-dummy.m */,
+				3BC823A2245FE2E9BFCFECC387E31B62 /* BHZXRouter-Info.plist */,
+				CF509E1B6005F14000151E83E53CD207 /* BHZXRouter-prefix.pch */,
+				9A129BE57119679070BEF2D7189FF0E8 /* BHZXRouter-umbrella.h */,
+				BF5F00A39B0809A8746A386FBDA48694 /* BHZXRouter.debug.xcconfig */,
+				9A37FC00778D5DECEB9CD67F1F411367 /* BHZXRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BHZXRouter";
+			sourceTree = "<group>";
+		};
+		8E54DA5997A66E5B6A3A3665182A1E19 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BBCEF2FBE6E1F23A696CC2D6CCE42C2 /* BHZXRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB7C950E8319D07DB7861B8AA319DD7D /* Pods-BHZXRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0B319B78BFCE7F62E964D384E880D9B /* Pods-BHZXRouter_Example.modulemap */,
+				35609B8F542E52835D72B46945E6C8F9 /* Pods-BHZXRouter_Example-acknowledgements.markdown */,
+				1061F9CD6CDED4DCE3C5A7040862845B /* Pods-BHZXRouter_Example-acknowledgements.plist */,
+				4852F7ABAC2D2CC82EF3B5D2B72AEE24 /* Pods-BHZXRouter_Example-dummy.m */,
+				7CB1D96087DE10FC174CA9289538AA91 /* Pods-BHZXRouter_Example-frameworks.sh */,
+				D7983374ECBF388BEF41BCF45B52D8E5 /* Pods-BHZXRouter_Example-Info.plist */,
+				023FB99B5753A605390EE782FEC85943 /* Pods-BHZXRouter_Example-umbrella.h */,
+				1E648C1E0CC4C38C9670DEFD9778D05E /* Pods-BHZXRouter_Example.debug.xcconfig */,
+				0E65ABB4C22C09824854BDF18871FB8D /* Pods-BHZXRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-BHZXRouter_Example";
+			path = "Target Support Files/Pods-BHZXRouter_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8E54DA5997A66E5B6A3A3665182A1E19 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07A9BF9D55DE87CA2F5CB2C895429326 /* Products */,
+				35D3DF4380475EAD354DACFDBF60B812 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DE72D0FEB07DAD36295AC6CAA34A1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D665E9729E6DB0E4460C05449FEF9BC9 /* BHZXRouter.podspec */,
+				63F51FFBB6E19ED3FD19E2D527282EEA /* LICENSE */,
+				95EA66369DE0FB38BBFB0DF50117AF86 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A2758EA501AB5628BACD26CC5524F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA2C88F5A87361ED4D84E3E0C440D97 /* Pods-BHZXRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF10504376DB329CC75451EFC92F2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E8648B7E661AFB6B6E0AD9E485AF1 /* BHZXRouter.h in Headers */,
+				036BE95D7E7D2CF98EEA5E68EBBC697C /* BHZXRouter-umbrella.h in Headers */,
+				000D3094FE2169F49C6954772A5148D9 /* BHZXRouterEvent.h in Headers */,
+				7347C57DFDE8E496A9278EB96BAC0AD2 /* BHZXRouterInterceptorProtocol.h in Headers */,
+				2EC14C7165AEFB685130526A3C67B804 /* BHZXRouterTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5733B2D41A3414DDD053E3B68ACAC2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F794B24FFA476DE943E32BA1DA6A43 /* Pods-BHZXRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71E02C5B00B0532B67A76F2996B6651E /* Pods-BHZXRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22F96BD5560E7F58B218001437FB2D1 /* Build configuration list for PBXNativeTarget "Pods-BHZXRouter_Tests" */;
+			buildPhases = (
+				A5733B2D41A3414DDD053E3B68ACAC2D /* Headers */,
+				6775266355B529C1A6177F5114EBDD10 /* Sources */,
+				804476CF9F99E10841F56C1901D7046C /* Frameworks */,
+				04B524B1EDA3B2CCBA08E1B07B721982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A97DAB2E78822F0B4E8BA0D265109C /* PBXTargetDependency */,
+			);
+			name = "Pods-BHZXRouter_Tests";
+			productName = Pods_BHZXRouter_Tests;
+			productReference = 4CF667665201929978F7F8BF9A4E7761 /* Pods-BHZXRouter_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ABDBAE65C336B4A1CFF3CAEDFDE7EC6 /* BHZXRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC504C2A0D378B8C35554F077234976D /* Build configuration list for PBXNativeTarget "BHZXRouter" */;
+			buildPhases = (
+				95DF10504376DB329CC75451EFC92F2E /* Headers */,
+				6D546673A60C7DBC17C7EB14D398D433 /* Sources */,
+				3228624C48784EA2C8E849688D8E78CF /* Frameworks */,
+				D2BEAAD18572FB74E8DC646F43238468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHZXRouter;
+			productName = BHZXRouter;
+			productReference = E2BD1FD86E1DAB7D90731E9323A6B30D /* BHZXRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2FA7377971757E2574480E77CBBD3BD /* Pods-BHZXRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECEC1DE3EA72DEDBFE76E1832A1A7BB /* Build configuration list for PBXNativeTarget "Pods-BHZXRouter_Example" */;
+			buildPhases = (
+				3A2758EA501AB5628BACD26CC5524F6D /* Headers */,
+				7FC880ED8ACA356EE34D0274135E3F59 /* Sources */,
+				9EFDE0901CA14E25F412F33AA82790B3 /* Frameworks */,
+				024FF21510D15BC1C45DCAC1F3A9AAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4AD2CFA8B6D814A6E56DDD05421BD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BHZXRouter_Example";
+			productName = Pods_BHZXRouter_Example;
+			productReference = 2F412C1571B95A3EB6E3FAB16CEC940A /* Pods_BHZXRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07A9BF9D55DE87CA2F5CB2C895429326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ABDBAE65C336B4A1CFF3CAEDFDE7EC6 /* BHZXRouter */,
+				F2FA7377971757E2574480E77CBBD3BD /* Pods-BHZXRouter_Example */,
+				71E02C5B00B0532B67A76F2996B6651E /* Pods-BHZXRouter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024FF21510D15BC1C45DCAC1F3A9AAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B524B1EDA3B2CCBA08E1B07B721982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BEAAD18572FB74E8DC646F43238468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6775266355B529C1A6177F5114EBDD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C43CCD76A15DC76961EA18347252F42 /* Pods-BHZXRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D546673A60C7DBC17C7EB14D398D433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD0B92D67AE794490B5B1BFB006FF5B /* BHZXRouter.m in Sources */,
+				FDEF8B9B534DEFB8A55EA79F9FA7D913 /* BHZXRouter-dummy.m in Sources */,
+				7D0208180AE4D0BAF6D9BC44EC8F4247 /* BHZXRouterEvent.m in Sources */,
+				81437DB499C2BC1F18DDF553D040DBE6 /* BHZXRouterTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC880ED8ACA356EE34D0274135E3F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBF3D6EE55B6BD778D1290A35ADFAE /* Pods-BHZXRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A97DAB2E78822F0B4E8BA0D265109C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BHZXRouter_Example";
+			target = F2FA7377971757E2574480E77CBBD3BD /* Pods-BHZXRouter_Example */;
+			targetProxy = 8FCA30F0EC3FA22BAF3024083ECC5D5B /* PBXContainerItemProxy */;
+		};
+		7E4AD2CFA8B6D814A6E56DDD05421BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BHZXRouter;
+			target = 8ABDBAE65C336B4A1CFF3CAEDFDE7EC6 /* BHZXRouter */;
+			targetProxy = 409F6E610B9385AF3EEE22C3C1A421E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C604B32A1F31B5C071186F3756430AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3EA4AEBF066FC9FC0C2CD90C7323B1 /* Pods-BHZXRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BHZXRouter_Tests/Pods-BHZXRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BHZXRouter_Tests/Pods-BHZXRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163C6867637A4CEE2293743B333CB55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A37FC00778D5DECEB9CD67F1F411367 /* BHZXRouter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BHZXRouter/BHZXRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BHZXRouter/BHZXRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BHZXRouter/BHZXRouter.modulemap";
+				PRODUCT_MODULE_NAME = BHZXRouter;
+				PRODUCT_NAME = BHZXRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A9B0724018924C20E4CA2BE6E112FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5F00A39B0809A8746A386FBDA48694 /* BHZXRouter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BHZXRouter/BHZXRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BHZXRouter/BHZXRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BHZXRouter/BHZXRouter.modulemap";
+				PRODUCT_MODULE_NAME = BHZXRouter;
+				PRODUCT_NAME = BHZXRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B1BADB67737CC4158E1C9C2CC12EFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E648C1E0CC4C38C9670DEFD9778D05E /* Pods-BHZXRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BHZXRouter_Example/Pods-BHZXRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BHZXRouter_Example/Pods-BHZXRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FA75EBE2AE2CB5E46FF420CEC263D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8926402A864C26A357F8F3F9358C583A /* Pods-BHZXRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BHZXRouter_Tests/Pods-BHZXRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BHZXRouter_Tests/Pods-BHZXRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3CA1D26AC9142741FF831C711D70638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E65ABB4C22C09824854BDF18871FB8D /* Pods-BHZXRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BHZXRouter_Example/Pods-BHZXRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BHZXRouter_Example/Pods-BHZXRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECEC1DE3EA72DEDBFE76E1832A1A7BB /* Build configuration list for PBXNativeTarget "Pods-BHZXRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1BADB67737CC4158E1C9C2CC12EFDE /* Debug */,
+				C3CA1D26AC9142741FF831C711D70638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC504C2A0D378B8C35554F077234976D /* Build configuration list for PBXNativeTarget "BHZXRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9B0724018924C20E4CA2BE6E112FD7 /* Debug */,
+				163C6867637A4CEE2293743B333CB55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22F96BD5560E7F58B218001437FB2D1 /* Build configuration list for PBXNativeTarget "Pods-BHZXRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA75EBE2AE2CB5E46FF420CEC263D7E /* Debug */,
+				0C604B32A1F31B5C071186F3756430AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "BHZXRouter",
+  "version": "0.1.0",
+  "summary": "A short description of BHZXRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wrc/BHZXRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wrc": "wangruichao0312@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wrc/BHZXRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BHZXRouter/Classes/**/*"
+}

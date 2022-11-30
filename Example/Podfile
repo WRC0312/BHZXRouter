@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'BHZXRouter_Example' do
+  pod 'BHZXRouter', :path => '../'
+
+  target 'BHZXRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

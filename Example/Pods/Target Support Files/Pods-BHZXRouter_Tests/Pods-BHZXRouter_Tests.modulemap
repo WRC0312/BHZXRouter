@@ -1,0 +1,6 @@
+framework module Pods_BHZXRouter_Tests {
+  umbrella header "Pods-BHZXRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
